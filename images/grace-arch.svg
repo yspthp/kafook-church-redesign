@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" fill="none">
+  <defs>
+    <linearGradient id="archSky" x1="400" y1="0" x2="400" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fdfbf7"/>
+      <stop offset="100%" stop-color="#f3efe8"/>
+    </linearGradient>
+    <linearGradient id="archSun" x1="400" y1="120" x2="400" y2="380" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#c5a059" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#9c8059" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="400" y1="180" x2="400" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" rx="16" fill="url(#archSky)"/>
+  
+  <!-- 拱門外框與漸層光暈 -->
+  <circle cx="400" cy="250" r="160" fill="url(#archSun)"/>
+  <path d="M260,480 V280 A140,140 0 0,1 540,280 V480" stroke="#1c2a38" stroke-width="2.5" stroke-linecap="round" opacity="0.85"/>
+  <path d="M280,480 V280 A120,120 0 0,1 520,280 V480" stroke="#9c8059" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 4" opacity="0.6"/>
+  <path d="M300,480 V280 A100,100 0 0,1 500,280 V480" stroke="#c5a059" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+
+  <!-- 十字架核心象徵 -->
+  <line x1="400" y1="210" x2="400" y2="340" stroke="#1c2a38" stroke-width="3" stroke-linecap="round"/>
+  <line x1="365" y1="250" x2="435" y2="250" stroke="#1c2a38" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- 迎光傾斜切面 -->
+  <polygon points="370,480 400,220 430,480" fill="url(#beam)"/>
+
+  <!-- 基石水平線 -->
+  <line x1="220" y1="480" x2="580" y2="480" stroke="#1c2a38" stroke-width="2" stroke-linecap="round"/>
+</svg>
