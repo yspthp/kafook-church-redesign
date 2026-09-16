@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" fill="none">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#121c26"/>
+      <stop offset="60%" stop-color="#1c2a38"/>
+      <stop offset="100%" stop-color="#2c3e50"/>
+    </linearGradient>
+    <radialGradient id="lightRay" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#c5a059" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#1c2a38" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#skyGrad)"/>
+  <circle cx="600" cy="240" r="320" fill="url(#lightRay)"/>
+
+  <!-- 簡約新堂建築輪廓 (觀塘電訊一代廣場 23樓A室意象) -->
+  <path d="M420,600 V300 L600,180 L780,300 V600 Z" fill="#15212d" opacity="0.95"/>
+  <line x1="600" y1="120" x2="600" y2="280" stroke="#c5a059" stroke-width="4" stroke-linecap="round"/>
+  <line x1="550" y1="170" x2="650" y2="170" stroke="#c5a059" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- 窗欞光感線條 -->
+  <line x1="500" y1="600" x2="500" y2="350" stroke="#9c8059" stroke-width="1.5" opacity="0.4"/>
+  <line x1="700" y1="600" x2="700" y2="350" stroke="#9c8059" stroke-width="1.5" opacity="0.4"/>
+  <line x1="450" y1="420" x2="750" y2="420" stroke="#9c8059" stroke-width="1.5" opacity="0.4"/>
+</svg>
