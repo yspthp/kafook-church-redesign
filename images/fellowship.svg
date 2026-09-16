@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400" fill="none">
+  <rect width="600" height="400" fill="#f8f6f0"/>
+  <!-- 團契圍坐意象 -->
+  <circle cx="300" cy="200" r="120" stroke="#9c8059" stroke-width="2" stroke-dasharray="6 6" fill="none"/>
+  <circle cx="300" cy="80" r="24" fill="#1c2a38"/>
+  <circle cx="420" cy="200" r="24" fill="#345643"/>
+  <circle cx="300" cy="320" r="24" fill="#1c2a38"/>
+  <circle cx="180" cy="200" r="24" fill="#345643"/>
+  <circle cx="300" cy="200" r="16" fill="#c5a059"/>
+</svg>
